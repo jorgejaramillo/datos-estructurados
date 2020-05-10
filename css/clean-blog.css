@@ -5,14 +5,15 @@
  */
 
 body {
-  font-size: 20px;
+  font-size: 17px;
   color: #212529;
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 p {
   line-height: 1.5;
   margin: 30px 0;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 p a {
@@ -28,6 +29,9 @@ h6 {
   font-weight: 800;
   font-family: 'Bebas Neue', cursive;
 }
+h3 {font-size: 30px}
+h2 {font-size: 40px}
+h4 {font-size: 25px;letter-spacing: 1px;}
 
 a {
   color: #212529;
@@ -329,13 +333,13 @@ header.masthead .post-heading .meta a {
   border-radius: 0;
   background: none;
   box-shadow: none !important;
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .floating-label-form-group input::-webkit-input-placeholder,
 .floating-label-form-group textarea::-webkit-input-placeholder {
   color: #868e96;
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .floating-label-form-group label {
@@ -408,6 +412,17 @@ footer .copyright {
 .btn-lg {
   font-size: 16px;
   padding: 25px 35px;
+}
+
+a.navbar-brand {
+    font-size: 34px;
+    letter-spacing: 1.4px;
+    background: -webkit-linear-gradient(#fff, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+a.nav-link {
+    font-size: 15px!important;
 }
 
 .post-home {
